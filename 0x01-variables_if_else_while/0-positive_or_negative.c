@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
+<<<<<<< HEAD
 int main(void)
 {
 
@@ -24,8 +25,12 @@ else
 }
 
 return (0);
-
-
+=======
+/**
+   * main - checks if positive, zero or negative
+   *
+   *Return: zero
+   */
 int main(void)
 {
 	int n;
@@ -43,5 +48,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
-
+>>>>>>> e0fc0a33b93d48a901b90634a44f71b590d37aac
 }
